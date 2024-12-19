@@ -2,4 +2,5 @@ x <- c(1,2,3)
 y <- c("a","b","c")
 z <- list(m=1:5, n = c("x","y","z"))
 objects()
-
+str(z)
+nest_list <-list(d = 1:15, e = list("a",c(1,2,3)),f = list(x=1:10,y=c("g","h")),g=list(x=0:11,y=c("i","j")))
